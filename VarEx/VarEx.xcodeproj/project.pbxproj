@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F48474841C1AB4470070AC2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48474831C1AB4470070AC2E /* AppDelegate.swift */; };
+		F48474861C1AB4470070AC2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48474851C1AB4470070AC2E /* ViewController.swift */; };
+		F48474891C1AB4470070AC2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48474871C1AB4470070AC2E /* Main.storyboard */; };
+		F484748B1C1AB4470070AC2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F484748A1C1AB4470070AC2E /* Assets.xcassets */; };
+		F484748E1C1AB4470070AC2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F484748C1C1AB4470070AC2E /* LaunchScreen.storyboard */; };
+		F48474991C1AB4470070AC2E /* VarExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48474981C1AB4470070AC2E /* VarExTests.swift */; };
+		F48474A41C1AB4470070AC2E /* VarExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48474A31C1AB4470070AC2E /* VarExUITests.swift */; };
+		F48474B21C1AB45F0070AC2E /* VarEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48474B11C1AB45F0070AC2E /* VarEx.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F48474951C1AB4470070AC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48474781C1AB4470070AC2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F484747F1C1AB4470070AC2E;
+			remoteInfo = VarEx;
+		};
+		F48474A01C1AB4470070AC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48474781C1AB4470070AC2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F484747F1C1AB4470070AC2E;
+			remoteInfo = VarEx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F48474801C1AB4470070AC2E /* VarEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VarEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48474831C1AB4470070AC2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F48474851C1AB4470070AC2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F48474881C1AB4470070AC2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F484748A1C1AB4470070AC2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F484748D1C1AB4470070AC2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F484748F1C1AB4470070AC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48474941C1AB4470070AC2E /* VarExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VarExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48474981C1AB4470070AC2E /* VarExTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarExTests.swift; sourceTree = "<group>"; };
+		F484749A1C1AB4470070AC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F484749F1C1AB4470070AC2E /* VarExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VarExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48474A31C1AB4470070AC2E /* VarExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarExUITests.swift; sourceTree = "<group>"; };
+		F48474A51C1AB4470070AC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48474B11C1AB45F0070AC2E /* VarEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarEx.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F484747D1C1AB4470070AC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48474911C1AB4470070AC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F484749C1C1AB4470070AC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F48474771C1AB4470070AC2E = {
+			isa = PBXGroup;
+			children = (
+				F48474821C1AB4470070AC2E /* VarEx */,
+				F48474971C1AB4470070AC2E /* VarExTests */,
+				F48474A21C1AB4470070AC2E /* VarExUITests */,
+				F48474811C1AB4470070AC2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F48474811C1AB4470070AC2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48474801C1AB4470070AC2E /* VarEx.app */,
+				F48474941C1AB4470070AC2E /* VarExTests.xctest */,
+				F484749F1C1AB4470070AC2E /* VarExUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48474821C1AB4470070AC2E /* VarEx */ = {
+			isa = PBXGroup;
+			children = (
+				F48474831C1AB4470070AC2E /* AppDelegate.swift */,
+				F48474851C1AB4470070AC2E /* ViewController.swift */,
+				F48474871C1AB4470070AC2E /* Main.storyboard */,
+				F48474B11C1AB45F0070AC2E /* VarEx.swift */,
+				F484748A1C1AB4470070AC2E /* Assets.xcassets */,
+				F484748C1C1AB4470070AC2E /* LaunchScreen.storyboard */,
+				F484748F1C1AB4470070AC2E /* Info.plist */,
+			);
+			path = VarEx;
+			sourceTree = "<group>";
+		};
+		F48474971C1AB4470070AC2E /* VarExTests */ = {
+			isa = PBXGroup;
+			children = (
+				F48474981C1AB4470070AC2E /* VarExTests.swift */,
+				F484749A1C1AB4470070AC2E /* Info.plist */,
+			);
+			path = VarExTests;
+			sourceTree = "<group>";
+		};
+		F48474A21C1AB4470070AC2E /* VarExUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F48474A31C1AB4470070AC2E /* VarExUITests.swift */,
+				F48474A51C1AB4470070AC2E /* Info.plist */,
+			);
+			path = VarExUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F484747F1C1AB4470070AC2E /* VarEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48474A81C1AB4470070AC2E /* Build configuration list for PBXNativeTarget "VarEx" */;
+			buildPhases = (
+				F484747C1C1AB4470070AC2E /* Sources */,
+				F484747D1C1AB4470070AC2E /* Frameworks */,
+				F484747E1C1AB4470070AC2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VarEx;
+			productName = VarEx;
+			productReference = F48474801C1AB4470070AC2E /* VarEx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F48474931C1AB4470070AC2E /* VarExTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48474AB1C1AB4470070AC2E /* Build configuration list for PBXNativeTarget "VarExTests" */;
+			buildPhases = (
+				F48474901C1AB4470070AC2E /* Sources */,
+				F48474911C1AB4470070AC2E /* Frameworks */,
+				F48474921C1AB4470070AC2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48474961C1AB4470070AC2E /* PBXTargetDependency */,
+			);
+			name = VarExTests;
+			productName = VarExTests;
+			productReference = F48474941C1AB4470070AC2E /* VarExTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F484749E1C1AB4470070AC2E /* VarExUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48474AE1C1AB4470070AC2E /* Build configuration list for PBXNativeTarget "VarExUITests" */;
+			buildPhases = (
+				F484749B1C1AB4470070AC2E /* Sources */,
+				F484749C1C1AB4470070AC2E /* Frameworks */,
+				F484749D1C1AB4470070AC2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48474A11C1AB4470070AC2E /* PBXTargetDependency */,
+			);
+			name = VarExUITests;
+			productName = VarExUITests;
+			productReference = F484749F1C1AB4470070AC2E /* VarExUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48474781C1AB4470070AC2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Masaki Otsubo";
+				TargetAttributes = {
+					F484747F1C1AB4470070AC2E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S22PJ4L5BG;
+					};
+					F48474931C1AB4470070AC2E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S22PJ4L5BG;
+						TestTargetID = F484747F1C1AB4470070AC2E;
+					};
+					F484749E1C1AB4470070AC2E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S22PJ4L5BG;
+						TestTargetID = F484747F1C1AB4470070AC2E;
+					};
+				};
+			};
+			buildConfigurationList = F484747B1C1AB4470070AC2E /* Build configuration list for PBXProject "VarEx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F48474771C1AB4470070AC2E;
+			productRefGroup = F48474811C1AB4470070AC2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F484747F1C1AB4470070AC2E /* VarEx */,
+				F48474931C1AB4470070AC2E /* VarExTests */,
+				F484749E1C1AB4470070AC2E /* VarExUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F484747E1C1AB4470070AC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F484748E1C1AB4470070AC2E /* LaunchScreen.storyboard in Resources */,
+				F484748B1C1AB4470070AC2E /* Assets.xcassets in Resources */,
+				F48474891C1AB4470070AC2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48474921C1AB4470070AC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F484749D1C1AB4470070AC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F484747C1C1AB4470070AC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48474861C1AB4470070AC2E /* ViewController.swift in Sources */,
+				F48474B21C1AB45F0070AC2E /* VarEx.swift in Sources */,
+				F48474841C1AB4470070AC2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48474901C1AB4470070AC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48474991C1AB4470070AC2E /* VarExTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F484749B1C1AB4470070AC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48474A41C1AB4470070AC2E /* VarExUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F48474961C1AB4470070AC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F484747F1C1AB4470070AC2E /* VarEx */;
+			targetProxy = F48474951C1AB4470070AC2E /* PBXContainerItemProxy */;
+		};
+		F48474A11C1AB4470070AC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F484747F1C1AB4470070AC2E /* VarEx */;
+			targetProxy = F48474A01C1AB4470070AC2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F48474871C1AB4470070AC2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48474881C1AB4470070AC2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F484748C1C1AB4470070AC2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F484748D1C1AB4470070AC2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F48474A61C1AB4470070AC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F48474A71C1AB4470070AC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F48474A91C1AB4470070AC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VarEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.VarEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F48474AA1C1AB4470070AC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VarEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.VarEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F48474AC1C1AB4470070AC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VarExTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.VarExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VarEx.app/VarEx";
+			};
+			name = Debug;
+		};
+		F48474AD1C1AB4470070AC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VarExTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.VarExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VarEx.app/VarEx";
+			};
+			name = Release;
+		};
+		F48474AF1C1AB4470070AC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VarExUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.VarExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VarEx;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F48474B01C1AB4470070AC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VarExUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.VarExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VarEx;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F484747B1C1AB4470070AC2E /* Build configuration list for PBXProject "VarEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48474A61C1AB4470070AC2E /* Debug */,
+				F48474A71C1AB4470070AC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48474A81C1AB4470070AC2E /* Build configuration list for PBXNativeTarget "VarEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48474A91C1AB4470070AC2E /* Debug */,
+				F48474AA1C1AB4470070AC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F48474AB1C1AB4470070AC2E /* Build configuration list for PBXNativeTarget "VarExTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48474AC1C1AB4470070AC2E /* Debug */,
+				F48474AD1C1AB4470070AC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F48474AE1C1AB4470070AC2E /* Build configuration list for PBXNativeTarget "VarExUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48474AF1C1AB4470070AC2E /* Debug */,
+				F48474B01C1AB4470070AC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F48474781C1AB4470070AC2E /* Project object */;
+}
