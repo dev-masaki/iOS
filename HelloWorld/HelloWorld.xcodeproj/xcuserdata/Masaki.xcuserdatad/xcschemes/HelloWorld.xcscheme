@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F483A7B41C1209AD008CC145"
+               BlueprintIdentifier = "F419A6071C1AA9C900C53E2E"
                BuildableName = "HelloWorld.app"
                BlueprintName = "HelloWorld"
                ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F483A7C81C1209AE008CC145"
+               BlueprintIdentifier = "F419A61B1C1AA9C900C53E2E"
                BuildableName = "HelloWorldTests.xctest"
                BlueprintName = "HelloWorldTests"
                ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F483A7D31C1209AE008CC145"
+               BlueprintIdentifier = "F419A6261C1AA9C900C53E2E"
                BuildableName = "HelloWorldUITests.xctest"
                BlueprintName = "HelloWorldUITests"
                ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F483A7B41C1209AD008CC145"
+            BlueprintIdentifier = "F419A6071C1AA9C900C53E2E"
             BuildableName = "HelloWorld.app"
             BlueprintName = "HelloWorld"
             ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F483A7B41C1209AD008CC145"
+            BlueprintIdentifier = "F419A6071C1AA9C900C53E2E"
             BuildableName = "HelloWorld.app"
             BlueprintName = "HelloWorld"
             ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F483A7B41C1209AD008CC145"
+            BlueprintIdentifier = "F419A6071C1AA9C900C53E2E"
             BuildableName = "HelloWorld.app"
             BlueprintName = "HelloWorld"
             ReferencedContainer = "container:HelloWorld.xcodeproj">
