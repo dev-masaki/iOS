@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F456DA0C1C2047F0005EEDF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F456DA0B1C2047F0005EEDF3 /* AppDelegate.swift */; };
+		F456DA0E1C2047F0005EEDF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F456DA0D1C2047F0005EEDF3 /* ViewController.swift */; };
+		F456DA111C2047F0005EEDF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F456DA0F1C2047F0005EEDF3 /* Main.storyboard */; };
+		F456DA131C2047F0005EEDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F456DA121C2047F0005EEDF3 /* Assets.xcassets */; };
+		F456DA161C2047F0005EEDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F456DA141C2047F0005EEDF3 /* LaunchScreen.storyboard */; };
+		F456DA211C2047F0005EEDF3 /* LoopExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F456DA201C2047F0005EEDF3 /* LoopExTests.swift */; };
+		F456DA2C1C2047F0005EEDF3 /* LoopExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F456DA2B1C2047F0005EEDF3 /* LoopExUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F456DA1D1C2047F0005EEDF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F456DA001C2047F0005EEDF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F456DA071C2047F0005EEDF3;
+			remoteInfo = LoopEx;
+		};
+		F456DA281C2047F0005EEDF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F456DA001C2047F0005EEDF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F456DA071C2047F0005EEDF3;
+			remoteInfo = LoopEx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F456DA081C2047F0005EEDF3 /* LoopEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F456DA0B1C2047F0005EEDF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F456DA0D1C2047F0005EEDF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F456DA101C2047F0005EEDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F456DA121C2047F0005EEDF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F456DA151C2047F0005EEDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F456DA171C2047F0005EEDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F456DA1C1C2047F0005EEDF3 /* LoopExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F456DA201C2047F0005EEDF3 /* LoopExTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopExTests.swift; sourceTree = "<group>"; };
+		F456DA221C2047F0005EEDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F456DA271C2047F0005EEDF3 /* LoopExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F456DA2B1C2047F0005EEDF3 /* LoopExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopExUITests.swift; sourceTree = "<group>"; };
+		F456DA2D1C2047F0005EEDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F456DA051C2047F0005EEDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F456DA191C2047F0005EEDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F456DA241C2047F0005EEDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F456D9FF1C2047F0005EEDF3 = {
+			isa = PBXGroup;
+			children = (
+				F456DA0A1C2047F0005EEDF3 /* LoopEx */,
+				F456DA1F1C2047F0005EEDF3 /* LoopExTests */,
+				F456DA2A1C2047F0005EEDF3 /* LoopExUITests */,
+				F456DA091C2047F0005EEDF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F456DA091C2047F0005EEDF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F456DA081C2047F0005EEDF3 /* LoopEx.app */,
+				F456DA1C1C2047F0005EEDF3 /* LoopExTests.xctest */,
+				F456DA271C2047F0005EEDF3 /* LoopExUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F456DA0A1C2047F0005EEDF3 /* LoopEx */ = {
+			isa = PBXGroup;
+			children = (
+				F456DA0B1C2047F0005EEDF3 /* AppDelegate.swift */,
+				F456DA0D1C2047F0005EEDF3 /* ViewController.swift */,
+				F456DA0F1C2047F0005EEDF3 /* Main.storyboard */,
+				F456DA121C2047F0005EEDF3 /* Assets.xcassets */,
+				F456DA141C2047F0005EEDF3 /* LaunchScreen.storyboard */,
+				F456DA171C2047F0005EEDF3 /* Info.plist */,
+			);
+			path = LoopEx;
+			sourceTree = "<group>";
+		};
+		F456DA1F1C2047F0005EEDF3 /* LoopExTests */ = {
+			isa = PBXGroup;
+			children = (
+				F456DA201C2047F0005EEDF3 /* LoopExTests.swift */,
+				F456DA221C2047F0005EEDF3 /* Info.plist */,
+			);
+			path = LoopExTests;
+			sourceTree = "<group>";
+		};
+		F456DA2A1C2047F0005EEDF3 /* LoopExUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F456DA2B1C2047F0005EEDF3 /* LoopExUITests.swift */,
+				F456DA2D1C2047F0005EEDF3 /* Info.plist */,
+			);
+			path = LoopExUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F456DA071C2047F0005EEDF3 /* LoopEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F456DA301C2047F0005EEDF3 /* Build configuration list for PBXNativeTarget "LoopEx" */;
+			buildPhases = (
+				F456DA041C2047F0005EEDF3 /* Sources */,
+				F456DA051C2047F0005EEDF3 /* Frameworks */,
+				F456DA061C2047F0005EEDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoopEx;
+			productName = LoopEx;
+			productReference = F456DA081C2047F0005EEDF3 /* LoopEx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F456DA1B1C2047F0005EEDF3 /* LoopExTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F456DA331C2047F0005EEDF3 /* Build configuration list for PBXNativeTarget "LoopExTests" */;
+			buildPhases = (
+				F456DA181C2047F0005EEDF3 /* Sources */,
+				F456DA191C2047F0005EEDF3 /* Frameworks */,
+				F456DA1A1C2047F0005EEDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F456DA1E1C2047F0005EEDF3 /* PBXTargetDependency */,
+			);
+			name = LoopExTests;
+			productName = LoopExTests;
+			productReference = F456DA1C1C2047F0005EEDF3 /* LoopExTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F456DA261C2047F0005EEDF3 /* LoopExUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F456DA361C2047F0005EEDF3 /* Build configuration list for PBXNativeTarget "LoopExUITests" */;
+			buildPhases = (
+				F456DA231C2047F0005EEDF3 /* Sources */,
+				F456DA241C2047F0005EEDF3 /* Frameworks */,
+				F456DA251C2047F0005EEDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F456DA291C2047F0005EEDF3 /* PBXTargetDependency */,
+			);
+			name = LoopExUITests;
+			productName = LoopExUITests;
+			productReference = F456DA271C2047F0005EEDF3 /* LoopExUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F456DA001C2047F0005EEDF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Masaki Otsubo";
+				TargetAttributes = {
+					F456DA071C2047F0005EEDF3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S22PJ4L5BG;
+					};
+					F456DA1B1C2047F0005EEDF3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S22PJ4L5BG;
+						TestTargetID = F456DA071C2047F0005EEDF3;
+					};
+					F456DA261C2047F0005EEDF3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S22PJ4L5BG;
+						TestTargetID = F456DA071C2047F0005EEDF3;
+					};
+				};
+			};
+			buildConfigurationList = F456DA031C2047F0005EEDF3 /* Build configuration list for PBXProject "LoopEx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F456D9FF1C2047F0005EEDF3;
+			productRefGroup = F456DA091C2047F0005EEDF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F456DA071C2047F0005EEDF3 /* LoopEx */,
+				F456DA1B1C2047F0005EEDF3 /* LoopExTests */,
+				F456DA261C2047F0005EEDF3 /* LoopExUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F456DA061C2047F0005EEDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F456DA161C2047F0005EEDF3 /* LaunchScreen.storyboard in Resources */,
+				F456DA131C2047F0005EEDF3 /* Assets.xcassets in Resources */,
+				F456DA111C2047F0005EEDF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F456DA1A1C2047F0005EEDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F456DA251C2047F0005EEDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F456DA041C2047F0005EEDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F456DA0E1C2047F0005EEDF3 /* ViewController.swift in Sources */,
+				F456DA0C1C2047F0005EEDF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F456DA181C2047F0005EEDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F456DA211C2047F0005EEDF3 /* LoopExTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F456DA231C2047F0005EEDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F456DA2C1C2047F0005EEDF3 /* LoopExUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F456DA1E1C2047F0005EEDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F456DA071C2047F0005EEDF3 /* LoopEx */;
+			targetProxy = F456DA1D1C2047F0005EEDF3 /* PBXContainerItemProxy */;
+		};
+		F456DA291C2047F0005EEDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F456DA071C2047F0005EEDF3 /* LoopEx */;
+			targetProxy = F456DA281C2047F0005EEDF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F456DA0F1C2047F0005EEDF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F456DA101C2047F0005EEDF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F456DA141C2047F0005EEDF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F456DA151C2047F0005EEDF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F456DA2E1C2047F0005EEDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F456DA2F1C2047F0005EEDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F456DA311C2047F0005EEDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoopEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.LoopEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F456DA321C2047F0005EEDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoopEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.LoopEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F456DA341C2047F0005EEDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoopExTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.LoopExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoopEx.app/LoopEx";
+			};
+			name = Debug;
+		};
+		F456DA351C2047F0005EEDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoopExTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.LoopExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoopEx.app/LoopEx";
+			};
+			name = Release;
+		};
+		F456DA371C2047F0005EEDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoopExUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.LoopExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoopEx;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F456DA381C2047F0005EEDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoopExUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tubobobobow.LoopExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoopEx;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F456DA031C2047F0005EEDF3 /* Build configuration list for PBXProject "LoopEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F456DA2E1C2047F0005EEDF3 /* Debug */,
+				F456DA2F1C2047F0005EEDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F456DA301C2047F0005EEDF3 /* Build configuration list for PBXNativeTarget "LoopEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F456DA311C2047F0005EEDF3 /* Debug */,
+				F456DA321C2047F0005EEDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F456DA331C2047F0005EEDF3 /* Build configuration list for PBXNativeTarget "LoopExTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F456DA341C2047F0005EEDF3 /* Debug */,
+				F456DA351C2047F0005EEDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F456DA361C2047F0005EEDF3 /* Build configuration list for PBXNativeTarget "LoopExUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F456DA371C2047F0005EEDF3 /* Debug */,
+				F456DA381C2047F0005EEDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F456DA001C2047F0005EEDF3 /* Project object */;
+}
