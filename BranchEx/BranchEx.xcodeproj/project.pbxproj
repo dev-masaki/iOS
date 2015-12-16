@@ -14,6 +14,7 @@
 		F4B45D431C20521A00DC15BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B45D411C20521A00DC15BA /* LaunchScreen.storyboard */; };
 		F4B45D4E1C20521A00DC15BA /* BranchExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B45D4D1C20521A00DC15BA /* BranchExTests.swift */; };
 		F4B45D591C20521A00DC15BA /* BranchExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B45D581C20521A00DC15BA /* BranchExUITests.swift */; };
+		F4B45D671C20523200DC15BA /* BranchEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B45D661C20523200DC15BA /* BranchEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F4B45D541C20521A00DC15BA /* BranchExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BranchExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B45D581C20521A00DC15BA /* BranchExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchExUITests.swift; sourceTree = "<group>"; };
 		F4B45D5A1C20521A00DC15BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B45D661C20523200DC15BA /* BranchEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchEx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F4B45D3F1C20521A00DC15BA /* Assets.xcassets */,
 				F4B45D411C20521A00DC15BA /* LaunchScreen.storyboard */,
 				F4B45D441C20521A00DC15BA /* Info.plist */,
+				F4B45D661C20523200DC15BA /* BranchEx.swift */,
 			);
 			path = BranchEx;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B45D671C20523200DC15BA /* BranchEx.swift in Sources */,
 				F4B45D3B1C20521A00DC15BA /* ViewController.swift in Sources */,
 				F4B45D391C20521A00DC15BA /* AppDelegate.swift in Sources */,
 			);
