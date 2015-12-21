@@ -14,6 +14,8 @@
 		F4B45C931C214ED900D7FBC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B45C911C214ED900D7FBC3 /* LaunchScreen.storyboard */; };
 		F4B45C9E1C214ED900D7FBC3 /* ClassExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B45C9D1C214ED900D7FBC3 /* ClassExTests.swift */; };
 		F4B45CA91C214ED900D7FBC3 /* ClassExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B45CA81C214ED900D7FBC3 /* ClassExUITests.swift */; };
+		F4B45CB71C214F1200D7FBC3 /* ClassEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B45CB61C214F1200D7FBC3 /* ClassEx.swift */; };
+		F4B45CB91C21528F00D7FBC3 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B45CB81C21528F00D7FBC3 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F4B45CA41C214ED900D7FBC3 /* ClassExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B45CA81C214ED900D7FBC3 /* ClassExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExUITests.swift; sourceTree = "<group>"; };
 		F4B45CAA1C214ED900D7FBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B45CB61C214F1200D7FBC3 /* ClassEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassEx.swift; sourceTree = "<group>"; };
+		F4B45CB81C21528F00D7FBC3 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F4B45C8F1C214ED900D7FBC3 /* Assets.xcassets */,
 				F4B45C911C214ED900D7FBC3 /* LaunchScreen.storyboard */,
 				F4B45C941C214ED900D7FBC3 /* Info.plist */,
+				F4B45CB61C214F1200D7FBC3 /* ClassEx.swift */,
+				F4B45CB81C21528F00D7FBC3 /* Device.swift */,
 			);
 			path = ClassEx;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B45CB71C214F1200D7FBC3 /* ClassEx.swift in Sources */,
 				F4B45C8B1C214ED800D7FBC3 /* ViewController.swift in Sources */,
 				F4B45C891C214ED800D7FBC3 /* AppDelegate.swift in Sources */,
+				F4B45CB91C21528F00D7FBC3 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
